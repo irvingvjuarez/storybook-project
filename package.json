@@ -1,0 +1,32 @@
+{
+  "name": "storybook-project",
+  "version": "1.0.0",
+  "description": "Storybook project with plain javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irvingvjuarez/storybook-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irvingvjuarez/storybook-project/issues"
+  },
+  "homepage": "https://github.com/irvingvjuarez/storybook-project#readme",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.4",
+    "@storybook/addon-essentials": "^8.5.3",
+    "@storybook/addon-interactions": "^8.5.3",
+    "@storybook/blocks": "^8.5.3",
+    "@storybook/html": "^8.5.3",
+    "@storybook/html-vite": "^8.5.3",
+    "@storybook/test": "^8.5.3",
+    "storybook": "^8.5.3"
+  }
+}
