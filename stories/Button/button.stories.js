@@ -1,7 +1,15 @@
 import {createButton} from "./button.js";
 
 export default {
-    title: "Atoms/Button"
+    title: "Atoms/Button",
+    parameters: {
+        actions: {
+          handles: ['mouseover'],
+        },
+    },
+    argTypes: {
+        onClick: { action: "clicked" }
+    }
 }
 
 const Template = ({ label, ...args }) => {
@@ -14,3 +22,4 @@ Default.args = {
     size: "medium",
     style: "primary"
 }
+
