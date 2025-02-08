@@ -4,6 +4,15 @@ import CardDocs from "./card.md?raw";
 
 export default {
     title: "Atoms/Card",
+    decorators: [
+        (Story) => {
+            const decorator = document.createElement("div");
+            decorator.style.margin = "24px";
+            decorator.appendChild(Story());
+
+            return decorator;
+        }
+    ],
     parameters: {
         viewMode: "docs",
         docs: {
