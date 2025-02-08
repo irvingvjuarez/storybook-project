@@ -1,7 +1,18 @@
 import { createCard } from "./card";
+import { Markdown } from "@storybook/blocks";
+import CardDocs from "./card.md?raw";
 
 export default {
     title: "Atoms/Card",
+    parameters: {
+        viewMode: "docs",
+        docs: {
+            page: null,
+            description: {
+                component: CardDocs,
+            },
+        }
+    },
     argTypes: {
         size: {
             name: "Size",

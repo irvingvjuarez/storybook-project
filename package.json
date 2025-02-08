@@ -28,5 +28,8 @@
     "@storybook/html-vite": "^8.5.3",
     "@storybook/test": "^8.5.3",
     "storybook": "^8.5.3"
+  },
+  "dependencies": {
+    "@storybook/addon-docs": "^8.5.3"
   }
 }
